@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class DiscoveringScreen extends StatelessWidget {
+class DiscoveringPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

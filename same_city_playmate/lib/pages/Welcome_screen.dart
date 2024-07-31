@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class WelcomeScreen extends StatelessWidget{
+class WelcomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return Scaffold(
@@ -11,7 +11,7 @@ class WelcomeScreen extends StatelessWidget{
         child: ElevatedButton(
           child: Text('Start'),
           onPressed: (){
-            Navigator.pushNamed(context, '/Discovering');
+            Navigator.pushNamed(context, '/main');
           },
         ),
       ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class NearbyScreen extends StatelessWidget {
+class NearbyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

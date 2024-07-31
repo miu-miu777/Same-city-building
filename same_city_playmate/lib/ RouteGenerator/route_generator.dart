@@ -1,20 +1,15 @@
-import 'package:flutter/material.dart';
-import 'package:same_city_playmate/pages/Discovering_screen.dart';
-import 'package:same_city_playmate/pages/Playmate_screen.dart';
-import 'package:same_city_playmate/pages/Nearby_screen.dart';
-import 'package:same_city_playmate/pages/Welcome_screen.dart';
-
-Route<dynamic> generateRoute(RouteSettings settings) {
-  switch (settings.name) {
-    case 'Welcome':
-      return MaterialPageRoute(builder: (_) => WelcomeScreen());
-    case '/Discovering':
-      return MaterialPageRoute(builder: (_) => DiscoveringScreen());
-    case '/Playmate':
-      return MaterialPageRoute(builder: (_) => PlaymateScreen());
-    case '/Nearby':
-      return MaterialPageRoute(builder: (_) => NearbyScreen());
-    default:
-      return MaterialPageRoute(builder: (_) => WelcomeScreen());
-  }
-}
+// import 'package:flutter/material.dart';
+// import 'package:same_city_playmate/pages/Welcome_screen.dart';
+// import 'package:same_city_playmate/main.dart';
+//
+// Route<dynamic> generateRoute(RouteSettings settings) {
+//   switch (settings.name) {
+//     case 'Welcome':
+//       return MaterialPageRoute(builder: (_) => WelcomePage());
+//     case '/main':
+//       return MaterialPageRoute(builder: (_) => MyApp());
+//
+//     default:
+//       return MaterialPageRoute(builder: (_) => WelcomePage());
+//   }
+// }现在不用
