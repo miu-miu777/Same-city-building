@@ -14,7 +14,10 @@
             <!-- Specifies an Android theme to apply to this Activity as soon as
                  the Android process has started. This theme is visible to the user
                  while the Flutter UI initializes. After that, this theme continues
-                 to determine the Window background behind the Flutter UI. -->
+                 to determine the Window background behind the Flutter UI.
+                 指定一个Android主题，以便在以下情况下立即应用于此活动Android进程已经开始。
+                 此主题对用户可见当Flutter UI初始化时。之后，这个主题继续以确定Flutter UI后面的窗口背景。
+                 -->
             <meta-data
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
@@ -35,6 +38,12 @@
          https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
 
          In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->
+    <!--定义 访问互联网权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+<!--    请求访问设备外部存储中的文件的权限。 如：视频音频照片文档等-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <queries>
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>

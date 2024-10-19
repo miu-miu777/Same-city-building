@@ -6,6 +6,7 @@ description:
 
 
 
+
 #  "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -35,17 +36,27 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  http: ^0.13.3 #用于网络请求
+
+
+
   flutter:
-    sdk: flutter
+       sdk: flutter
+  intl: ^0.18.0  # 提供了精确的字符串对比、数字格式化，和日期时间格式化
+
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+
+  video_player: ^2.9.1 #播放视频的包
   cupertino_icons: ^1.0.6
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -58,6 +69,8 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+
+
 flutter:
 
   # The following line ensures that the Material Icons font is
@@ -65,10 +78,19 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+
+
+  assets:
+    - assets/headPicture.png
+    - assets/heart.png
+    - assets/bei.png
+    - assets/loading.jpg
+    - assets/chuchuang.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
